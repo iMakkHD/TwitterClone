@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Live URL: https://twitter-clone-ac5b0.web.app/
+
+Credit to Clever Programmer.
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -11,13 +11,13 @@ function TweetBox() {
     e.preventDefault();
 
     db.collection("posts").add({
-      displayName: "Rafeh Qazi",
-      username: "cleverqazi",
+      displayName: "Evan Mako",
+      username: "EMako47",
       verified: true,
       text: tweetMessage,
       image: tweetImage,
       avatar:
-        "https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png",
+        "https://styles.redditmedia.com/t5_5fe5hx/styles/communityIcon_tzuupqzq87381.jpg",
     });
 
     setTweetMessage("");
@@ -28,7 +28,7 @@ function TweetBox() {
     <div className="tweetBox">
       <form>
         <div className="tweetBox__input">
-          <Avatar src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png" />
+          <Avatar src="https://styles.redditmedia.com/t5_5fe5hx/styles/communityIcon_tzuupqzq87381.jpg" />
           <input
             onChange={(e) => setTweetMessage(e.target.value)}
             value={tweetMessage}
@@ -36,13 +36,6 @@ function TweetBox() {
             type="text"
           />
         </div>
-        <input
-          value={tweetImage}
-          onChange={(e) => setTweetImage(e.target.value)}
-          className="tweetBox__imageInput"
-          placeholder="Optional: Enter image URL"
-          type="text"
-        />
 
         <Button
           onClick={sendTweet}
