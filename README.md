@@ -4,6 +4,10 @@ Live URL: https://twitter-clone-ac5b0.web.app/
 
 Credit to Clever Programmer.
 
+1. Enter the command nodemon server.js
+2. cd into whatsapp and run npm start
+3. Enjoy the app!
+
 ## Available Scripts
 
 In the project directory, you can run:
